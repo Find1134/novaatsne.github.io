@@ -5,6 +5,9 @@
 # 缓存文件
 .hugo_build.lock
 
+# 特别注意：不要排除 themes/ 目录，否则工作流会找不到主题！
+#  themes/  # ⚠️ 如果有这一行请删除
+
 # 操作系统文件
 # Windows
 [Dd]esktop.ini
@@ -75,3 +78,6 @@ logs/
 
 # 用户上传内容（如果适用）
 uploads/
+
+# Hugo 模块缓存（如果有使用 Hugo Modules）
+/.hugo_modules/

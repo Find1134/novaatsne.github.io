@@ -3,6 +3,19 @@ languageCode: 'zh-cn'
 title: 'NovaAtsne博客'
 theme: "PaperMod"
 
+# 配置
+enableRobotsTXT = true
+buildDrafts = false
+buildFuture = false
+buildExpired = false
+
+# 启用功能
+enableInlineShortcodes = true
+enableEmoji = true
+
+# 分页
+paginate = 5
+
 params:
   ShowCodeCopyButtons: true
   TocOpen: true
